@@ -191,6 +191,6 @@ This project helped strengthen practical skills in:
 
 ## 👤 Author
 
-**Your Name**
+**Rahul R Tiwari**
 
 Aspiring Data Analyst | Python | SQL | Excel | Power BI
