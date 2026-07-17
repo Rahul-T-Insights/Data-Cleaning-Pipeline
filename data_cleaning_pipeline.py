@@ -13,10 +13,11 @@ print(df.shape)
 print(df.describe())
 print(df.isnull().sum())
 
-# Count duplicates records
+# Count duplicates records, print duplicates records and then remove duplicate records
 
 print(df.duplicated().sum())
 print(df[df.duplicated()])
+df= df.drop_duplicates()
 
 # Analyze missing values
 
