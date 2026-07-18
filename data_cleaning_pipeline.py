@@ -8,7 +8,7 @@ df= pd.read_excel(r"C:\Users\hp\Desktop\Projects\Retail Superstore data\Ecommerc
 # Understand the data
 
 print(df.head())
-print(df.info()) 
+df.info()
 print(df.shape)
 print(df.describe())
 print(df.isnull().sum())
